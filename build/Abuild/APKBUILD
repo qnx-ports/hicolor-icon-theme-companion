@@ -2,7 +2,7 @@
 # Maintainer: Aaron Bassett <abassett@qnx.com>
 pkgname=hicolor-icon-theme
 pkgver=0.18
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="Freedesktop.org Hicolor icon theme"
 url="https://www.freedesktop.org/wiki/Software/icon-theme/"
 arch="noarch"
@@ -21,7 +21,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 07db44fb6bec797445740832fa2b3ba56f5f335834161a26a4e5f767a8c45c0885ef1189e887b56752bd20c4b1aac101c5d4a395df4177cd3817ee5105db0d37  hicolor-icon-theme-0.18.tar.xz
 "
